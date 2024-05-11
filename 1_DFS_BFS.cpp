@@ -1,3 +1,5 @@
+//project 1
+#include<bitset>
 #include<iostream>
 #include<list>
 #include<map>
@@ -11,6 +13,7 @@ class Graph{
     map<int, list<int>> adjList;
     map<int, bool> visited;
     queue<int> q;
+    int komal;
     
     //Copy Constructor
     // Graph(const Graph &g){
